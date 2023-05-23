@@ -68,13 +68,13 @@ class Achievement
         return $this;
     }
 
-    public function getEvent(): ?int
+    public function getEvent(): ?string
     {
         return $this->event;
     }
 
 
-    public function setEvent(int $event): self
+    public function setEvent(string $event): self
     {
         $this->event = $event;
 
