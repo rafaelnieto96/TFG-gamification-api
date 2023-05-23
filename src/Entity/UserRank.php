@@ -3,14 +3,14 @@
 namespace App\Entity;
 
 use ApiPlatform\Core\Annotation\ApiResource;
-use App\Repository\RankRepository;
+use App\Repository\UserRankRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ApiResource()
- * @ORM\Entity(repositoryClass=RankRepository::class)
+ * @ORM\Entity(repositoryClass=UserRankRepository::class)
  */
-class Rank
+class UserRank
 {
     /**
      * @ORM\Id
