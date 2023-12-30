@@ -1,1 +1,1 @@
-symfony server:start
+symfony server:start --port=8001
